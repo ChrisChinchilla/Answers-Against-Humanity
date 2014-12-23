@@ -13,6 +13,7 @@
 		24C0BFC81A3D9A6A0080E16E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BFC71A3D9A6A0080E16E /* Images.xcassets */; };
 		24C0BFCB1A3D9A6A0080E16E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BFC91A3D9A6A0080E16E /* LaunchScreen.xib */; };
 		24C0BFD71A3D9A6A0080E16E /* Answers_Against_HumanityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BFD61A3D9A6A0080E16E /* Answers_Against_HumanityTests.swift */; };
+		24C0BFE11A3DA3400080E16E /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BFE01A3DA3400080E16E /* cards.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		24C0BFD01A3D9A6A0080E16E /* Answers Against HumanityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Answers Against HumanityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C0BFD51A3D9A6A0080E16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C0BFD61A3D9A6A0080E16E /* Answers_Against_HumanityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers_Against_HumanityTests.swift; sourceTree = "<group>"; };
+		24C0BFE01A3DA3400080E16E /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cards.json; path = ../cards.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		24C0BFBD1A3D9A690080E16E /* Answers Against Humanity */ = {
 			isa = PBXGroup;
 			children = (
+				24C0BFE01A3DA3400080E16E /* cards.json */,
 				24C0BFC01A3D9A690080E16E /* AppDelegate.swift */,
 				24C0BFC21A3D9A690080E16E /* ViewController.swift */,
 				24C0BFC41A3D9A6A0080E16E /* Main.storyboard */,
@@ -195,6 +198,7 @@
 				24C0BFC61A3D9A6A0080E16E /* Main.storyboard in Resources */,
 				24C0BFCB1A3D9A6A0080E16E /* LaunchScreen.xib in Resources */,
 				24C0BFC81A3D9A6A0080E16E /* Images.xcassets in Resources */,
+				24C0BFE11A3DA3400080E16E /* cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				24C0BFDC1A3D9A6A0080E16E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24C0BFDD1A3D9A6A0080E16E /* Build configuration list for PBXNativeTarget "Answers Against HumanityTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				24C0BFDF1A3D9A6A0080E16E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
